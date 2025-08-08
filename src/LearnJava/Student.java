@@ -17,7 +17,7 @@ public abstract class Student {
         return  this.price * this.tax;
     }
 
-    public void infoStudent() {
+    public void studentInfo() {
         System.out.println("Student Information: " + this.id);
         System.out.println("Id: " + this.tax);
         System.out.println("Name: " + this.name);
@@ -28,7 +28,7 @@ public abstract class Student {
     }
 
     //Function không có body, 1 mdethod trừu tượng
-    abstract void tinhDiem();
+    public abstract double getDiem();
 
 }
 

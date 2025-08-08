@@ -1,6 +1,7 @@
 import LearnJava.ITStudents;
 import LearnJava.OOP;
 import LearnJava.Product;
+import LearnJava.Student;
 
 import java.util.Scanner;
 
@@ -155,9 +156,9 @@ public class Main {
 
         }
         scanner.close();
-
-        ITStudents student1 = new ITStudents("1","Nguyễn Văn A",2,2000,"Java");
+        Student student1 = new ITStudents("1","Nguyễn Văn A",2,2000,"Java",10,9);
         student1.studentInfo();
+        System.out.println("Core: " + student1.getDiem());
     }
 
 }
