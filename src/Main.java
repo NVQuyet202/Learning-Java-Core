@@ -1,7 +1,4 @@
-import LearnJava.ITStudents;
-import LearnJava.OOP;
-import LearnJava.Product;
-import LearnJava.Student;
+import LearnJava.*;
 
 import java.util.Scanner;
 
@@ -159,6 +156,16 @@ public class Main {
         Student student1 = new ITStudents("1","Nguyễn Văn A",2,2000,"Java",10,9);
         student1.studentInfo();
         System.out.println("Core: " + student1.getDiem());
+
+        // Su dung Interface
+        Pig pigTest = new Pig();
+        pigTest.animalSound();
+
+        Students student2 = new Students("132","nguyenvanquyet",18,9);
+        student2.setGrade();
+        System.out.println(student2);
+
+
     }
 
 }
