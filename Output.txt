@@ -1,5 +1,2 @@
-safsadsad
-safsadsad
-safsadsad
-safsadsad
-
+Tổng số chẵn: 122
+Tổng số lẻ: 100
